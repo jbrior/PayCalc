@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>20577281691-kvlk8jequ5s2dtgo335mco1hb2i0tgbn.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.20577281691-kvlk8jequ5s2dtgo335mco1hb2i0tgbn</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDiyLjBy26XNKTvzvSiWYfhzChGciOICxw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>20577281691</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.brior.us.PayCalc</string>
+	<key>PROJECT_ID</key>
+	<string>paycalc-781e7</string>
+	<key>STORAGE_BUCKET</key>
+	<string>paycalc-781e7.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:20577281691:ios:ec4cdb36792a8a4651483e</string>
+	<key>DATABASE_URL</key>
+	<string>https://paycalc-781e7.firebaseio.com</string>
+</dict>
+</plist>

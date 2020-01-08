@@ -3,27 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A240A1D123C4342A002846D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A240A1D023C4342A002846D3 /* AppDelegate.swift */; };
-		A240A1D323C4342A002846D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A240A1D223C4342A002846D3 /* SceneDelegate.swift */; };
-		A240A1D523C4342A002846D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A240A1D423C4342A002846D3 /* ViewController.swift */; };
-		A240A1D823C4342A002846D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A240A1D623C4342A002846D3 /* Main.storyboard */; };
 		A240A1DA23C4342B002846D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A240A1D923C4342B002846D3 /* Assets.xcassets */; };
 		A240A1DD23C4342B002846D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A240A1DB23C4342B002846D3 /* LaunchScreen.storyboard */; };
+		A240A1E523C43448002846D3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A240A1E423C43448002846D3 /* GoogleService-Info.plist */; };
+		A240A1EB23C434F7002846D3 /* WeekTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A240A1E623C434F5002846D3 /* WeekTwoViewController.swift */; };
+		A240A1EC23C434F7002846D3 /* WeekOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A240A1E723C434F6002846D3 /* WeekOneViewController.swift */; };
+		A240A1ED23C434F7002846D3 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A240A1E823C434F6002846D3 /* HistoryViewController.swift */; };
+		A240A1EF23C434F7002846D3 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A240A1EA23C434F7002846D3 /* ResultsViewController.swift */; };
+		A240A1F323C43513002846D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A240A1F023C43512002846D3 /* AppDelegate.swift */; };
+		A240A1F423C43513002846D3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A240A1F123C43512002846D3 /* Constants.swift */; };
+		A240A1F523C43513002846D3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A240A1F223C43513002846D3 /* SceneDelegate.swift */; };
+		A240A1F823C438AF002846D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A240A1F623C43525002846D3 /* Main.storyboard */; };
+		A298264023C527D400E9F50D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A298263F23C527D400E9F50D /* DetailViewController.swift */; };
+		C42A5018D1FF456B39F6E712 /* Pods_PayCalc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4358CA5DD7E6F502DB39655 /* Pods_PayCalc.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4DBA3B65EFF33610BD7E5DBE /* Pods-PayCalc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayCalc.debug.xcconfig"; path = "Target Support Files/Pods-PayCalc/Pods-PayCalc.debug.xcconfig"; sourceTree = "<group>"; };
 		A240A1CD23C4342A002846D3 /* PayCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A240A1D023C4342A002846D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A240A1D223C4342A002846D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A240A1D423C4342A002846D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A240A1D723C4342A002846D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A240A1D923C4342B002846D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A240A1DC23C4342B002846D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A240A1DE23C4342B002846D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A240A1E423C43448002846D3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A240A1E623C434F5002846D3 /* WeekTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekTwoViewController.swift; sourceTree = "<group>"; };
+		A240A1E723C434F6002846D3 /* WeekOneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeekOneViewController.swift; sourceTree = "<group>"; };
+		A240A1E823C434F6002846D3 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		A240A1EA23C434F7002846D3 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		A240A1F023C43512002846D3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A240A1F123C43512002846D3 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A240A1F223C43513002846D3 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A240A1F623C43525002846D3 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A298263F23C527D400E9F50D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A4358CA5DD7E6F502DB39655 /* Pods_PayCalc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PayCalc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF0590F6C96EDA89E4C391AE /* Pods-PayCalc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PayCalc.release.xcconfig"; path = "Target Support Files/Pods-PayCalc/Pods-PayCalc.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C42A5018D1FF456B39F6E712 /* Pods_PayCalc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +59,8 @@
 			children = (
 				A240A1CF23C4342A002846D3 /* PayCalc */,
 				A240A1CE23C4342A002846D3 /* Products */,
+				BA416D7C1C36D66802B3DDEF /* Pods */,
+				CA2E23A14B9314C4A09672AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +75,38 @@
 		A240A1CF23C4342A002846D3 /* PayCalc */ = {
 			isa = PBXGroup;
 			children = (
-				A240A1D023C4342A002846D3 /* AppDelegate.swift */,
-				A240A1D223C4342A002846D3 /* SceneDelegate.swift */,
-				A240A1D423C4342A002846D3 /* ViewController.swift */,
-				A240A1D623C4342A002846D3 /* Main.storyboard */,
+				A240A1F023C43512002846D3 /* AppDelegate.swift */,
+				A240A1F223C43513002846D3 /* SceneDelegate.swift */,
+				A240A1F123C43512002846D3 /* Constants.swift */,
+				A240A1E723C434F6002846D3 /* WeekOneViewController.swift */,
+				A240A1E623C434F5002846D3 /* WeekTwoViewController.swift */,
+				A240A1EA23C434F7002846D3 /* ResultsViewController.swift */,
+				A240A1E823C434F6002846D3 /* HistoryViewController.swift */,
+				A298263F23C527D400E9F50D /* DetailViewController.swift */,
+				A240A1F623C43525002846D3 /* Main.storyboard */,
 				A240A1D923C4342B002846D3 /* Assets.xcassets */,
 				A240A1DB23C4342B002846D3 /* LaunchScreen.storyboard */,
 				A240A1DE23C4342B002846D3 /* Info.plist */,
+				A240A1E423C43448002846D3 /* GoogleService-Info.plist */,
 			);
 			path = PayCalc;
+			sourceTree = "<group>";
+		};
+		BA416D7C1C36D66802B3DDEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4DBA3B65EFF33610BD7E5DBE /* Pods-PayCalc.debug.xcconfig */,
+				EF0590F6C96EDA89E4C391AE /* Pods-PayCalc.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CA2E23A14B9314C4A09672AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4358CA5DD7E6F502DB39655 /* Pods_PayCalc.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A240A1E123C4342B002846D3 /* Build configuration list for PBXNativeTarget "PayCalc" */;
 			buildPhases = (
+				321C16F33AC475A029A87037 /* [CP] Check Pods Manifest.lock */,
 				A240A1C923C4342A002846D3 /* Sources */,
 				A240A1CA23C4342A002846D3 /* Frameworks */,
 				A240A1CB23C4342A002846D3 /* Resources */,
+				15535C5E34764FAE992D7B1E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,36 +169,76 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A240A1F823C438AF002846D3 /* Main.storyboard in Resources */,
 				A240A1DD23C4342B002846D3 /* LaunchScreen.storyboard in Resources */,
+				A240A1E523C43448002846D3 /* GoogleService-Info.plist in Resources */,
 				A240A1DA23C4342B002846D3 /* Assets.xcassets in Resources */,
-				A240A1D823C4342A002846D3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15535C5E34764FAE992D7B1E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PayCalc/Pods-PayCalc-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PayCalc/Pods-PayCalc-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PayCalc/Pods-PayCalc-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		321C16F33AC475A029A87037 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PayCalc-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A240A1C923C4342A002846D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A240A1D523C4342A002846D3 /* ViewController.swift in Sources */,
-				A240A1D123C4342A002846D3 /* AppDelegate.swift in Sources */,
-				A240A1D323C4342A002846D3 /* SceneDelegate.swift in Sources */,
+				A240A1F323C43513002846D3 /* AppDelegate.swift in Sources */,
+				A240A1EF23C434F7002846D3 /* ResultsViewController.swift in Sources */,
+				A240A1EB23C434F7002846D3 /* WeekTwoViewController.swift in Sources */,
+				A240A1F423C43513002846D3 /* Constants.swift in Sources */,
+				A240A1ED23C434F7002846D3 /* HistoryViewController.swift in Sources */,
+				A240A1EC23C434F7002846D3 /* WeekOneViewController.swift in Sources */,
+				A240A1F523C43513002846D3 /* SceneDelegate.swift in Sources */,
+				A298264023C527D400E9F50D /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A240A1D623C4342A002846D3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A240A1D723C4342A002846D3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A240A1DB23C4342B002846D3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +366,7 @@
 		};
 		A240A1E223C4342B002846D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DBA3B65EFF33610BD7E5DBE /* Pods-PayCalc.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +385,7 @@
 		};
 		A240A1E323C4342B002846D3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF0590F6C96EDA89E4C391AE /* Pods-PayCalc.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
